@@ -1,14 +1,14 @@
 # Maintainer: Nev Delap <nevdelap at gmail dot com>
 pkgname="ned"
-pkgver="1.2.8"
+pkgver="1.2.9"
 pkgrel=1
 pkgdesc="Like grep but with a powerful replace, unlike sed, it's not only line oriented."
 arch=("x86_64")
 url="https://github.com/nevdelap/ned"
 license=("GPL3")
-makedepends=("rust")
+makedepends=("rust>=1.52.0")
 source=("$pkgname-$pkgver.tar.gz::https://github.com/nevdelap/ned/archive/release.$pkgver.tar.gz")
-md5sums=('53b3f34e51bdfaefd43344e381afc804')
+md5sums=('6bffdb362e29984ba5f1e85674493f82')
 
 build() {
 	cd "ned-release.$pkgver"
