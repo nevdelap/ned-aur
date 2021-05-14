@@ -5,9 +5,8 @@ pkgbase = ned
 	url = https://github.com/nevdelap/ned
 	arch = x86_64
 	license = GPL3
-	makedepends = rust>=1.52.0
 	source = ned-1.2.9.tar.gz::https://github.com/nevdelap/ned/archive/release.1.2.9.tar.gz
-	md5sums = 6bffdb362e29984ba5f1e85674493f82
+	md5sums = 3fe2b86055f4b94e03f4104c2cba9d57
 
 pkgname = ned
 
